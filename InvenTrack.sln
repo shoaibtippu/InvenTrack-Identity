@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{D309202B-88A3-464B-AC27-E46A5AC11878}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B19B111B-B6B2-4340-BA95-7D2C0A8E5DC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5C3533E4-EAB5-4655-9536-DC8A3F89446A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenTrack.WebAPI", "Hexagonal.WebAPI\InvenTrack.WebAPI.csproj", "{4E361801-C6F4-4AE9-A153-1EE8915B6DE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenTrack.Adapters.SQL", "Hexagonal.Adapters.SQL\InvenTrack.Adapters.SQL.csproj", "{F394E203-D54B-4CAA-99CC-0CAC85AD9B3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenTrack.Application", "Hexagonal.Application\InvenTrack.Application.csproj", "{F0C439B1-0AFE-4E11-B8DD-ECAFF5A1FAAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenTrack.Application.Common", "Hexagonal.Application.Common\InvenTrack.Application.Common.csproj", "{209656BB-5EA0-493D-84EA-0469FFBB7F13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenTrack.Adapters.Rest", "Hexagonal.Adapters.Rest\InvenTrack.Adapters.Rest.csproj", "{4B31BFDC-5EFD-42D5-ABD7-B72BC03D8527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E361801-C6F4-4AE9-A153-1EE8915B6DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E361801-C6F4-4AE9-A153-1EE8915B6DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E361801-C6F4-4AE9-A153-1EE8915B6DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E361801-C6F4-4AE9-A153-1EE8915B6DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F394E203-D54B-4CAA-99CC-0CAC85AD9B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F394E203-D54B-4CAA-99CC-0CAC85AD9B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F394E203-D54B-4CAA-99CC-0CAC85AD9B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F394E203-D54B-4CAA-99CC-0CAC85AD9B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C439B1-0AFE-4E11-B8DD-ECAFF5A1FAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C439B1-0AFE-4E11-B8DD-ECAFF5A1FAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C439B1-0AFE-4E11-B8DD-ECAFF5A1FAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C439B1-0AFE-4E11-B8DD-ECAFF5A1FAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209656BB-5EA0-493D-84EA-0469FFBB7F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209656BB-5EA0-493D-84EA-0469FFBB7F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209656BB-5EA0-493D-84EA-0469FFBB7F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209656BB-5EA0-493D-84EA-0469FFBB7F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B31BFDC-5EFD-42D5-ABD7-B72BC03D8527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B31BFDC-5EFD-42D5-ABD7-B72BC03D8527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B31BFDC-5EFD-42D5-ABD7-B72BC03D8527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B31BFDC-5EFD-42D5-ABD7-B72BC03D8527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F394E203-D54B-4CAA-99CC-0CAC85AD9B3B} = {D309202B-88A3-464B-AC27-E46A5AC11878}
+		{F0C439B1-0AFE-4E11-B8DD-ECAFF5A1FAAD} = {B19B111B-B6B2-4340-BA95-7D2C0A8E5DC2}
+		{209656BB-5EA0-493D-84EA-0469FFBB7F13} = {5C3533E4-EAB5-4655-9536-DC8A3F89446A}
+		{4B31BFDC-5EFD-42D5-ABD7-B72BC03D8527} = {D309202B-88A3-464B-AC27-E46A5AC11878}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {390A2E0F-4312-4BE1-A232-65C77E7E3DAE}
+	EndGlobalSection
+EndGlobal
